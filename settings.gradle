@@ -1,0 +1,2 @@
+rootProject.name='Filmclub'
+include ':app'

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.Upcoming"
+    android:id="@+id/swipeToRefreshUpcoming"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--<FrameLayout-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    >-->
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:text="@string/hello_blank_fragment" />-->
+
+    <!--</FrameLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/upcomingRecyclerView"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        />
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
