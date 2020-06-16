@@ -1,2 +1,2 @@
 # Filmclub
-An android application to get details of movies from Moviedb.org.
+An android application to get lists of movies using Moviedb.org API.
